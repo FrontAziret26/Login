@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+
+    width: 450px;
+    height:520px;
+    background:dodgerblue;
+}
+
+.input-container {
+    margin-left: 30px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.icon {
+    padding: 9px;
+    background: #eeeeee;
+    color: dodgerblue;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 300px;
+    padding: 11px;
+    outline: none;
+    border: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+.text{
+    color: rgba(255, 255, 255, 0.8);
+    padding-left: 15px;
+    font-size: 18px;
+    margin:15px;
+}
+
+.btn {
+    font-size: 17px;
+    width: 390px;
+    padding: 11px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+}
+
